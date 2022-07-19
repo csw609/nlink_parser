@@ -1,4 +1,4 @@
-# nlink_parser ROS2 ver
+# nlink_parser ROS2 ver.
 
 ## Prerequisites
 - ROS2

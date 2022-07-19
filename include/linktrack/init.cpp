@@ -246,7 +246,7 @@ namespace linktrack
           const auto &data = g_nlt_nodeframe2.result;
           auto &msg_data = g_msg_nodeframe2;
           auto &msg_nodes = msg_data.nodes;
-
+          msg_data.header.stamp = node->get_clock()->now();
           msg_data.role = data.role;
           msg_data.id = data.id;
           msg_data.local_time = data.local_time;
